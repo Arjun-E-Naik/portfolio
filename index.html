@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Arjun E Naik - Quantum Machine Learning Researcher, Full-Stack Engineer, and AI Agent Architect">
+  <title>Arjun E Naik | Portfolio</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons & FontAwesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-glass py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-gradient" href="#home">
+        <i class="fa-solid fa-atom me-2"></i>Arjun E Naik
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <button class="btn btn-outline-info btn-sm rounded-pill px-3" id="themeToggleBtn" title="Toggle Theme">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section min-vh-100 d-flex align-items-center">
+    <div class="container py-5">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7">
+          <div class="badge-pill mb-3">
+            <span class="pulse-dot"></span> Welcome to my digital portfolio
+          </div>
+          <h1 class="display-3 fw-bold mb-3">
+            Hi, I'm <span class="text-gradient">Arjun E Naik</span>
+          </h1>
+          <h2 class="h3 fw-semibold text-secondary mb-4">
+            AI Agent Architect &middot; Quantum ML Researcher &middot; Full-Stack Engineer
+          </h2>
+          <p class="lead text-body-secondary mb-4">
+            Specializing in hybrid quantum-classical algorithms, intelligent agentic workflows (LangGraph), and robust distributed web systems. FOSSEE contributor at IIT Bombay.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="#projects" class="btn btn-primary btn-lg rounded-pill px-4 shadow-sm">
+              <i class="fa-solid fa-code me-2"></i>Explore Projects
+            </a>
+            <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">
+              <i class="fa-regular fa-paper-plane me-2"></i>Get in Touch
+            </a>
+          </div>
+          <div class="social-links d-flex gap-3 align-items-center">
+            <span class="text-muted small fw-semibold">CONNECT:</span>
+            <a href="https://github.com/Arjun-E-Naik" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://in.linkedin.com/in/arjun-e-naik" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="profile-card-wrapper mx-auto">
+            <div class="profile-card glass-panel text-center p-4">
+              <div class="avatar-ring mb-3">
+                <img src="https://avatars.githubusercontent.com/u/191595272?v=4" alt="Arjun E Naik" class="rounded-circle img-fluid" style="width: 160px; height: 160px; object-fit: cover;">
+              </div>
+              <h4 class="fw-bold mb-1">Arjun E Naik</h4>
+              <p class="text-info small mb-3">@Arjun-E-Naik on GitHub</p>
+              <div class="d-flex justify-content-around text-center py-2 border-top border-bottom border-secondary-subtle my-3">
+                <div>
+                  <h5 class="fw-bold mb-0">24+</h5>
+                  <small class="text-muted">Repositories</small>
+                </div>
+                <div>
+                  <h5 class="fw-bold mb-0">6+</h5>
+                  <small class="text-muted">Core Domains</small>
+                </div>
+                <div>
+                  <h5 class="fw-bold mb-0">100%</h5>
+                  <small class="text-muted">Dedication</small>
+                </div>
+              </div>
+              <div class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2 rounded-pill">
+                <i class="fa-solid fa-bolt me-1"></i> Available for Opportunities
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding bg-surface">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h6 class="text-primary fw-bold text-uppercase tracking-wide">Background & Focus</h6>
+        <h2 class="fw-bold display-5">About Me</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-6">
+          <h3 class="fw-bold mb-3">Engineering Intelligent Systems & Quantum Computing</h3>
+          <p class="text-body-secondary">
+            I am a passionate software engineer and researcher with deep curiosity at the intersection of <strong>Quantum Computing</strong>, <strong>Agentic AI</strong>, and <strong>Full-Stack Development</strong>.
+          </p>
+          <p class="text-body-secondary">
+            My work spans developing variational quantum circuits, multi-agent automated systems using LangGraph & LangSmith, and designing enterprise-grade backend APIs with Node.js, Express, MySQL, and Microsoft SQL Server.
+          </p>
+          <div class="row g-3 mt-2">
+            <div class="col-sm-6">
+              <div class="info-pill p-3 rounded glass-panel">
+                <i class="fa-solid fa-graduation-cap text-info fs-4 mb-2"></i>
+                <h6 class="fw-bold mb-1">Academic Honors</h6>
+                <small class="text-muted">Consistent academic excellence & Karnataka SSLC State Topper.</small>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="info-pill p-3 rounded glass-panel">
+                <i class="fa-solid fa-award text-warning fs-4 mb-2"></i>
+                <h6 class="fw-bold mb-1">FOSSEE Fellowship</h6>
+                <small class="text-muted">IIT Bombay open-source Scilab image processing developer.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-4 glass-panel rounded-4">
+            <h5 class="fw-bold mb-3"><i class="fa-solid fa-chart-line text-info me-2"></i>Core Competencies</h5>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="fw-semibold">Quantum Machine Learning & VQC</span>
+                <span class="text-info">92%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-info" style="width: 92%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="fw-semibold">Full-Stack Backend (Node.js, Express, SQL)</span>
+                <span class="text-primary">95%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-primary" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="fw-semibold">Agentic Workflows (LangGraph, LLMs)</span>
+                <span class="text-success">90%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-success" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="mb-0">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="fw-semibold">DevOps, Docker & Cloud Deployment</span>
+                <span class="text-warning">88%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-warning" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h6 class="text-primary fw-bold text-uppercase tracking-wide">Technical Expertise</h6>
+        <h2 class="fw-bold display-5">Skills & Technologies</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-category-card glass-panel p-4 rounded-4 h-100">
+            <div class="icon-bubble mb-3 bg-primary-subtle text-primary">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h5 class="fw-bold">Languages</h5>
+            <div class="d-flex flex-wrap gap-2 mt-3">
+              <span class="badge skill-badge">Python</span>
+              <span class="badge skill-badge">JavaScript</span>
+              <span class="badge skill-badge">TypeScript</span>
+              <span class="badge skill-badge">C / C++</span>
+              <span class="badge skill-badge">Scilab</span>
+              <span class="badge skill-badge">SQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-category-card glass-panel p-4 rounded-4 h-100">
+            <div class="icon-bubble mb-3 bg-info-subtle text-info">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h5 class="fw-bold">AI & Quantum</h5>
+            <div class="d-flex flex-wrap gap-2 mt-3">
+              <span class="badge skill-badge">PyTorch</span>
+              <span class="badge skill-badge">LangGraph</span>
+              <span class="badge skill-badge">LangSmith</span>
+              <span class="badge skill-badge">Qiskit</span>
+              <span class="badge skill-badge">PennyLane</span>
+              <span class="badge skill-badge">Transformers</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-category-card glass-panel p-4 rounded-4 h-100">
+            <div class="icon-bubble mb-3 bg-success-subtle text-success">
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <h5 class="fw-bold">Backend & DBs</h5>
+            <div class="d-flex flex-wrap gap-2 mt-3">
+              <span class="badge skill-badge">Node.js</span>
+              <span class="badge skill-badge">Express.js</span>
+              <span class="badge skill-badge">Microsoft SQL Server</span>
+              <span class="badge skill-badge">MySQL</span>
+              <span class="badge skill-badge">REST APIs</span>
+              <span class="badge skill-badge">CRUD & Joins</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-category-card glass-panel p-4 rounded-4 h-100">
+            <div class="icon-bubble mb-3 bg-warning-subtle text-warning">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <h5 class="fw-bold">DevOps & Tools</h5>
+            <div class="d-flex flex-wrap gap-2 mt-3">
+              <span class="badge skill-badge">Docker</span>
+              <span class="badge skill-badge">Docker Compose</span>
+              <span class="badge skill-badge">Git & GitHub</span>
+              <span class="badge skill-badge">Postman</span>
+              <span class="badge skill-badge">Render / Cloud</span>
+              <span class="badge skill-badge">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-padding bg-surface">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h6 class="text-primary fw-bold text-uppercase tracking-wide">Featured Work</h6>
+        <h2 class="fw-bold display-5">Projects & Research</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="d-flex justify-content-center flex-wrap gap-2 mb-5">
+        <button class="btn btn-sm btn-outline-primary active filter-btn" data-filter="all">All Projects</button>
+        <button class="btn btn-sm btn-outline-primary filter-btn" data-filter="quantum-ai">Quantum & AI</button>
+        <button class="btn btn-sm btn-outline-primary filter-btn" data-filter="web-backend">Web & Backend</button>
+        <button class="btn btn-sm btn-outline-primary filter-btn" data-filter="open-source">Open Source</button>
+      </div>
+
+      <div class="row g-4" id="projectGrid">
+        <!-- Project 1: Quantum-ML -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="quantum-ai">
+          <div class="project-card glass-panel rounded-4 h-100 d-flex flex-column">
+            <div class="card-header-gradient p-3 d-flex justify-content-between align-items-center">
+              <span class="badge bg-info-subtle text-info"><i class="fa-solid fa-atom me-1"></i>Quantum ML</span>
+              <a href="https://github.com/Arjun-E-Naik/Quantum-ML" target="_blank" class="text-secondary"><i class="fa-brands fa-github fs-5"></i></a>
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <h5 class="fw-bold mb-2">Quantum-ML</h5>
+              <p class="text-body-secondary small flex-grow-1">
+                A research repository focused on Quantum Machine Learning (QML). Implements hybrid quantum-classical algorithms merging deep learning with variational quantum circuits (VQC), quantum data encoding, and circuit optimization.
+              </p>
+              <div class="d-flex flex-wrap gap-1 mb-3">
+                <span class="badge bg-secondary-subtle text-secondary small">Python</span>
+                <span class="badge bg-secondary-subtle text-secondary small">Qiskit</span>
+                <span class="badge bg-secondary-subtle text-secondary small">PyTorch</span>
+              </div>
+              <a href="https://github.com/Arjun-E-Naik/Quantum-ML" target="_blank" class="btn btn-sm btn-outline-info rounded-pill">
+                View Repository <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Real-Time Disaster Prediction -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="quantum-ai">
+          <div class="project-card glass-panel rounded-4 h-100 d-flex flex-column">
+            <div class="card-header-gradient p-3 d-flex justify-content-between align-items-center">
+              <span class="badge bg-success-subtle text-success"><i class="fa-solid fa-cloud-bolt me-1"></i>GenAI & Weather</span>
+              <a href="https://github.com/Arjun-E-Naik/Real-Time-Disaster-Prediction" target="_blank" class="text-secondary"><i class="fa-brands fa-github fs-5"></i></a>
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <h5 class="fw-bold mb-2">Real-Time Disaster Prediction</h5>
+              <p class="text-body-secondary small flex-grow-1">
+                Automated Weather Emergency Response System built using LangGraph & LangSmith. Monitors live meteorological conditions, evaluates disaster risks, and generates actionable emergency response strategies.
+              </p>
+              <div class="d-flex flex-wrap gap-1 mb-3">
+                <span class="badge bg-secondary-subtle text-secondary small">LangGraph</span>
+                <span class="badge bg-secondary-subtle text-secondary small">LangSmith</span>
+                <span class="badge bg-secondary-subtle text-secondary small">Python</span>
+              </div>
+              <a href="https://github.com/Arjun-E-Naik/Real-Time-Disaster-Prediction" target="_blank" class="btn btn-sm btn-outline-info rounded-pill">
+                View Repository <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: FOSSEE Scilab Image Processing -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="open-source">
+          <div class="project-card glass-panel rounded-4 h-100 d-flex flex-column">
+            <div class="card-header-gradient p-3 d-flex justify-content-between align-items-center">
+              <span class="badge bg-primary-subtle text-primary"><i class="fa-solid fa-images me-1"></i>FOSSEE IIT Bombay</span>
+              <a href="https://github.com/Arjun-E-Naik/scilab-image-processing-toolbox" target="_blank" class="text-secondary"><i class="fa-brands fa-github fs-5"></i></a>
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <h5 class="fw-bold mb-2">Scilab Image Processing Toolbox</h5>
+              <p class="text-body-secondary small flex-grow-1">
+                Developed as part of the FOSSEE fellowship program (IIT Bombay) to build native Scilab implementations of image processing toolbox algorithms, filtering methods, and geometric transformation routines.
+              </p>
+              <div class="d-flex flex-wrap gap-1 mb-3">
+                <span class="badge bg-secondary-subtle text-secondary small">Scilab</span>
+                <span class="badge bg-secondary-subtle text-secondary small">C / C++</span>
+                <span class="badge bg-secondary-subtle text-secondary small">Image Processing</span>
+              </div>
+              <a href="https://github.com/Arjun-E-Naik/scilab-image-processing-toolbox" target="_blank" class="btn btn-sm btn-outline-info rounded-pill">
+                View Repository <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Health_Agents -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="quantum-ai">
+          <div class="project-card glass-panel rounded-4 h-100 d-flex flex-column">
+            <div class="card-header-gradient p-3 d-flex justify-content-between align-items-center">
+              <span class="badge bg-danger-subtle text-danger"><i class="fa-solid fa-heart-pulse me-1"></i>Healthcare AI</span>
+              <a href="https://github.com/Arjun-E-Naik/Health_Agents" target="_blank" class="text-secondary"><i class="fa-brands fa-github fs-5"></i></a>
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <h5 class="fw-bold mb-2">Health_Agents Multi-Agent System</h5>
+              <p class="text-body-secondary small flex-grow-1">
+                An intelligent multi-agent collaborative medical diagnosis and patient triage system. Employs specialized clinical reasoning agents, symptomatology analysis, and medical research retrieval.
+              </p>
+              <div class="d-flex flex-wrap gap-1 mb-3">
+                <span class="badge bg-secondary-subtle text-secondary small">Multi-Agent</span>
+                <span class="badge bg-secondary-subtle text-secondary small">Python</span>
+                <span class="badge bg-secondary-subtle text-secondary small">LLMs</span>
+              </div>
+              <a href="https://github.com/Arjun-E-Naik/Health_Agents" target="_blank" class="btn btn-sm btn-outline-info rounded-pill">
+                View Repository <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Course Enrollment System (TPDS M3-P2) -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="web-backend">
+          <div class="project-card glass-panel rounded-4 h-100 d-flex flex-column">
+            <div class="card-header-gradient p-3 d-flex justify-content-between align-items-center">
+              <span class="badge bg-warning-subtle text-warning"><i class="fa-solid fa-database me-1"></i>SQL Server</span>
+              <a href="https://github.com/Arjun-E-Naik" target="_blank" class="text-secondary"><i class="fa-brands fa-github fs-5"></i></a>
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <h5 class="fw-bold mb-2">Online Course Enrollment System</h5>
+              <p class="text-body-secondary small flex-grow-1">
+                Enterprise course registration platform built with Node.js, Express, and Microsoft SQL Server. Features atomic transactions for seat management, duplicate prevention, and multi-table SQL joins.
+              </p>
+              <div class="d-flex flex-wrap gap-1 mb-3">
+                <span class="badge bg-secondary-subtle text-secondary small">Node.js</span>
+                <span class="badge bg-secondary-subtle text-secondary small">MSSQL</span>
+                <span class="badge bg-secondary-subtle text-secondary small">Transactions</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-outline-info rounded-pill">
+                Project Details <i class="fa-solid fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: Dockerized Task Manager (TPDS M4-P2) -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="web-backend">
+          <div class="project-card glass-panel rounded-4 h-100 d-flex flex-column">
+            <div class="card-header-gradient p-3 d-flex justify-content-between align-items-center">
+              <span class="badge bg-info-subtle text-info"><i class="fa-brands fa-docker me-1"></i>Docker & Cloud</span>
+              <a href="https://github.com/Arjun-E-Naik" target="_blank" class="text-secondary"><i class="fa-brands fa-github fs-5"></i></a>
+            </div>
+            <div class="p-4 d-flex flex-column flex-grow-1">
+              <h5 class="fw-bold mb-2">Containerized Task Manager</h5>
+              <p class="text-body-secondary small flex-grow-1">
+                Full-stack student task management application containerized with multi-stage Docker builds and docker-compose. Ready for 1-click cloud deployment on Render and AWS.
+              </p>
+              <div class="d-flex flex-wrap gap-1 mb-3">
+                <span class="badge bg-secondary-subtle text-secondary small">Docker</span>
+                <span class="badge bg-secondary-subtle text-secondary small">Express</span>
+                <span class="badge bg-secondary-subtle text-secondary small">Bootstrap 5</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-outline-info rounded-pill">
+                Project Details <i class="fa-solid fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h6 class="text-primary fw-bold text-uppercase tracking-wide">Let's Connect</h6>
+        <h2 class="fw-bold display-5">Get in Touch</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+      <div class="row gy-4 justify-content-center">
+        <div class="col-lg-5">
+          <div class="contact-info-card glass-panel p-4 rounded-4 h-100">
+            <h4 class="fw-bold mb-4">Contact Information</h4>
+            <div class="d-flex align-items-center mb-3">
+              <div class="contact-icon-bubble me-3">
+                <i class="fa-solid fa-user text-primary"></i>
+              </div>
+              <div>
+                <small class="text-muted d-block">Name</small>
+                <span class="fw-semibold">Arjun E Naik</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <div class="contact-icon-bubble me-3">
+                <i class="fa-brands fa-github text-primary"></i>
+              </div>
+              <div>
+                <small class="text-muted d-block">GitHub Profile</small>
+                <a href="https://github.com/Arjun-E-Naik" target="_blank" class="fw-semibold text-info text-decoration-none">github.com/Arjun-E-Naik</a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-4">
+              <div class="contact-icon-bubble me-3">
+                <i class="fa-brands fa-linkedin text-primary"></i>
+              </div>
+              <div>
+                <small class="text-muted d-block">LinkedIn Profile</small>
+                <a href="https://in.linkedin.com/in/arjun-e-naik" target="_blank" class="fw-semibold text-info text-decoration-none">linkedin.com/in/arjun-e-naik</a>
+              </div>
+            </div>
+            <div class="p-3 bg-primary-subtle border border-primary-subtle rounded-3">
+              <p class="small text-primary mb-0">
+                <i class="fa-solid fa-handshake me-1"></i> Open to collaborations in Quantum Computing, Agentic AI, and Software Engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="glass-panel p-4 rounded-4">
+            <h4 class="fw-bold mb-4">Send a Message</h4>
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nameInput" class="form-label small fw-semibold">Your Name</label>
+                  <input type="text" class="form-control bg-dark-subtle" id="nameInput" placeholder="Jane Doe" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="emailInput" class="form-label small fw-semibold">Your Email</label>
+                  <input type="email" class="form-control bg-dark-subtle" id="emailInput" placeholder="name@example.com" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="subjectInput" class="form-label small fw-semibold">Subject</label>
+                  <input type="text" class="form-control bg-dark-subtle" id="subjectInput" placeholder="Project Inquiry / Collaboration" required>
+                  <div class="invalid-feedback">Please enter a subject.</div>
+                </div>
+                <div class="col-12">
+                  <label for="messageInput" class="form-label small fw-semibold">Message</label>
+                  <textarea class="form-control bg-dark-subtle" id="messageInput" rows="4" placeholder="Hello Arjun, I came across your work in..." required></textarea>
+                  <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary rounded-pill px-4 py-2 w-100">
+                    <i class="fa-regular fa-paper-plane me-2"></i>Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div id="formAlert" class="alert alert-success mt-3 d-none" role="alert">
+              <i class="fa-solid fa-check-circle me-2"></i>Thank you! Your message has been prepared. I'll get back to you shortly.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top border-secondary-subtle text-center text-muted small">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+      <div>&copy; 2026 Arjun E Naik. All Rights Reserved.</div>
+      <div class="d-flex gap-3">
+        <a href="https://github.com/Arjun-E-Naik" target="_blank" class="text-secondary"><i class="fa-brands fa-github"></i></a>
+        <a href="https://in.linkedin.com/in/arjun-e-naik" target="_blank" class="text-secondary"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
